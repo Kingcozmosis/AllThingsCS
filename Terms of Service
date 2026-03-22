@@ -1,58 +1,68 @@
-# Terms of Service
-Last Updated: March 2026
+Terms of Service
+Last Updated: March 22, 2026
 
-By inviting or using the All Things CS Discord Bot ("the Bot"), you agree to the following Terms of Service.
+By inviting or using the All Things CS Discord Bot ("the Bot"), you agree to the following terms.
 
-## Usage
+1. Usage
 
-All Things CS is provided as a free tool for accessing Counter-Strike related information in Discord servers.
+The Bot is provided for informational and entertainment purposes related to Counter-Strike.
 
-Users agree to use the bot responsibly and in compliance with Discord's Terms of Service.
+Users may use the Bot to:
 
-## Restrictions
+• View live CS matches
+• Search professional players
+• View team rosters
+• Receive Dust2.us news
+• Receive CS2 update notifications
 
-Users may not use the bot to:
+2. Administrator Responsibility
 
-• Violate Discord's Terms of Service  
-• Abuse or exploit the bot  
-• Attempt to disrupt the bot's functionality  
-• Use the bot for illegal activities
+Server administrators are responsible for:
 
-The developer reserves the right to block servers or users who abuse the bot.
+• Proper configuration of the Bot
+• Managing role pings and notification channels
+• Ensuring the Bot is used within Discord's Terms of Service
 
-## Availability
+3. Availability
 
-The bot is provided **as-is** with no guarantees of uptime or availability. Features may change, be removed, or be updated at any time.
+The Bot is provided "as is" without guarantees of uptime or availability.
 
-## Limitation of Liability
+Features may change, break, or be removed at any time without prior notice.
 
-The developer of All Things CS is not responsible for:
+4. Third-Party Content
 
-• Service interruptions  
-• Incorrect data from third-party APIs 
+The Bot displays content sourced from external platforms including:
 
-## Third-Party Services
-
-The bot relies on external services for data, including:
-
-• BO3.gg  
-• Steam Community  
+• BO3.gg
 • Dust2.us
+• Steam Community
+• CS2 APIs
 
-The bot is not affiliated with or endorsed by these services unless otherwise stated.
+The developer is not responsible for the accuracy or availability of third-party data.
 
-## Termination
+5. Abuse and Misuse
 
-The developer reserves the right to:
+Users may not use the Bot to:
 
-• Restrict bot access  
-• Remove bot functionality  
-• Block servers or users that violate these terms
+• Spam commands excessively
+• Abuse or exploit bot functionality
+• Circumvent Discord platform rules
 
-## Changes to the Terms
+The developer reserves the right to block servers or users abusing the Bot.
 
-These Terms of Service may be updated at any time. Continued use of the bot after updates indicates acceptance of the revised terms.
+6. Limitation of Liability
 
-## Contact
+The developer is not liable for:
 
-For questions regarding these Terms of Service, please refer to the GitHub repository for the All Things CS project or reach out to the dev.
+• Data loss
+• Server disruptions
+• Incorrect information from third-party services
+• Damages resulting from use of the Bot
+
+7. Changes to Terms
+
+These Terms of Service may be updated at any time. Continued use of the Bot indicates acceptance of the updated terms.
+
+8. Contact
+
+Questions or concerns regarding these terms can be directed to the developer through the project's GitHub repository.
