@@ -9,13 +9,17 @@ If you have a CS related question, just **@ the bot and ask!**
 
 ## Features
 
-• Live Counter-Strike match tracking  
-• Pro player search and stats  
-• Team roster lookup  
-• Automatic Dust2.us news posts  
-• Automatic CS2 update posts from Steam  
-• Admin setup commands for news & updates  
-• Interactive embeds and buttons  
+• Live Counter-Strike match tracking
+• Pro player search and stats
+• Team roster lookup
+• Compare two pro players /vs with KD, rating, prize, and winner highlight
+• Multi match player selection with interactive dropdowns
+• Map callouts /callouts
+• Smoke lineups /instants
+• Automatic Dust2.us news posts
+• Automatic CS2 update posts from Steam
+• Admin setup commands for news & updates
+• Interactive embeds and buttons linking to HLTV, Steam, BO3.gg
 • Rotating bot status
 
 ---
@@ -30,6 +34,10 @@ If you have a CS related question, just **@ the bot and ask!**
 | `/matches` | View today's or live CS matches |
 | `/player` | Search for a CS2 pro player |
 | `/team` | Show a CS2 team roster |
+| `/callouts` | View CS2 map callouts |
+| `/instants` | View CS2 Smoke lineups |
+| `/vs` | Compare two CS2 pro players |
+
 
 ### Admin Commands
 
@@ -51,95 +59,5 @@ https://bo3.gg
 
 ---
 ## Installation
+Coming soon!
 
-### 1. Clone the repository
-
-git clone https://github.com/Kingcozmosis/all-things-cs.git
-cd all-things-cs
-
----
-
-### 2. Install Python
-
-Make sure you have **Python 3.10 or newer** installed.
-
-Check your version:
-
-python --version
-
----
-
-### 3. Install dependencies
-
-Install all required packages:
-
-pip install -r requirements.txt
-
-If you don't have a requirements.txt yet, install these:
-
-pip install discord.py python-dotenv feedparser aiohttp beautifulsoup4 cs2api
-
----
-
-### 4. Create a `.env` file
-
-Create a file called `.env` in the root of the project.
-
-Add your Discord bot token:
-
-DISCORD_TOKEN=your_discord_bot_token_here
-
----
-
-### 5. Start the bot
-
-Run the bot with:
-
-python bot.py
-
-You should see:
-
-Bot connected as All Things CS
-Slash commands synced!
-
----
-
-### 6. Invite the bot to your server
-
-Create an invite link in the **Discord Developer Portal** and invite the bot to your server.
-
-Recommended permissions:
-
-• Send Messages  
-• Embed Links  
-• Use Slash Commands  
-• Read Message History  
-
----
-
-### 7. Setup features in your server
-
-Run the setup commands (Admin only):
-
-/dust2  
-/cs2updates
-
-These allow admins to configure:
-
-• Dust2 news posts  
-• CS2 update posts  
-
----
-
-### Done!
-
-Your **All Things CS bot** should now be running and ready to use.
-
-Try these commands:
-
-/help  
-/matches  
-/player  
-/team  
-
-You can also **@mention the bot and ask CS related questions.**
