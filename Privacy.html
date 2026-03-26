@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,123 +7,171 @@
   <title>Privacy Policy • All Things CS</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-zinc-950 text-white font-sans">
 
-  <!-- Header -->
-  <header class="bg-gray-800 py-6 shadow-md">
-    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">All Things CS</h1>
-      <nav>
-        <a href="index.html" class="text-orange-500 hover:underline mr-4">Home</a>
-        <a href="Privacy.html" class="text-white hover:underline mr-4">Privacy Policy</a>
-        <a href="Terms.html" class="text-white hover:underline">Terms of Service</a>
-      </nav>
-    </div>
+  <!-- Navbar -->
+
+  <header class="sticky top-0 z-50 bg-black/70 backdrop-blur border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold tracking-wide text-white">
+        All Things <span class="text-orange-500">CS</span>
+      </a>
+
+```
+  <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-300">
+    <a href="index.html" class="hover:text-orange-500 transition">Home</a>
+    <a href="About.html" class="hover:text-orange-500 transition">About</a>
+    <a href="partners.html" class="hover:text-orange-500 transition">Partners</a>
+    <a href="Privacy.html" class="text-orange-500">Privacy</a>
+    <a href="Terms.html" class="hover:text-orange-500 transition">Terms</a>
+  </nav>
+</div>
+```
+
   </header>
 
-  <!-- Hero Section -->
-  <section class="text-center py-16 px-4">
-    <h2 class="text-4xl font-bold mb-4">Privacy Policy</h2>
-    <p class="text-gray-400">Last Updated: March 22, 2026</p>
+  <!-- Hero -->
+
+  <section class="py-20 px-4 text-center border-b border-zinc-800 bg-gradient-to-b from-zinc-900 to-zinc-950">
+    <div class="max-w-4xl mx-auto">
+      <p class="text-orange-400 uppercase tracking-[0.3em] text-sm font-semibold mb-3">
+        Legal
+      </p>
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Privacy Policy</h1>
+      <p class="text-zinc-400 text-lg">Last Updated: March 22, 2026</p>
+    </div>
   </section>
 
   <!-- Main Content -->
-  <main class="max-w-4xl mx-auto px-4 py-8 space-y-8">
 
-    <!-- Section 1: Information Collected -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">1. Information Collected</h3>
-      <p>The Bot may collect and temporarily process the following information provided by Discord:</p>
-      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
-        <li>Server (Guild) ID</li>
-        <li>Channel IDs used for setup commands</li>
-        <li>Role IDs used for notifications</li>
-        <li>User IDs for command interaction</li>
-      </ul>
-      <p class="mt-2">This information is only used to operate the Bot's features, such as:</p>
-      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
-        <li>Posting Dust2 news</li>
-        <li>Posting CS2 updates</li>
-        <li>Managing server configurations</li>
-        <li>Processing commands</li>
-      </ul>
-      <p class="mt-2">No personal information outside of what Discord provides is collected.</p>
-    </section>
+  <main class="max-w-4xl mx-auto px-4 py-16 space-y-8">
 
-    <!-- Section 2: Data Storage -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">2. Data Storage</h3>
-      <p>The Bot stores minimal configuration data such as:</p>
-      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
-        <li>Server configuration settings</li>
-        <li>Selected channels</li>
-        <li>Selected roles</li>
-        <li>Last posted news/update links</li>
-      </ul>
-      <p class="mt-2">This data is stored locally in configuration files for the purpose of running the Bot's features.</p>
-    </section>
+```
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">1. Information Collected</h2>
+  <p class="text-zinc-300 leading-7">
+    The Bot may collect and temporarily process the following information provided by Discord:
+  </p>
+  <ul class="list-disc list-inside mt-4 space-y-2 text-zinc-400">
+    <li>Server (Guild) ID</li>
+    <li>Channel IDs used for setup commands</li>
+    <li>Role IDs used for notifications</li>
+    <li>User IDs for command interaction</li>
+  </ul>
+  <p class="text-zinc-300 leading-7 mt-4">
+    This information is only used to operate the Bot’s features, such as posting news,
+    delivering CS2 updates, managing server configurations, and processing commands.
+    No personal information outside of what Discord provides is collected.
+  </p>
+</section>
 
-    <!-- Section 3: Data Usage -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">3. Data Usage</h3>
-      <p>Collected data is used solely for:</p>
-      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
-        <li>Providing bot functionality</li>
-        <li>Delivering configured updates</li>
-        <li>Responding to commands</li>
-        <li>Maintaining server settings</li>
-      </ul>
-      <p class="mt-2">Data is never sold, shared, or used for advertising purposes.</p>
-    </section>
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">2. Data Storage</h2>
+  <p class="text-zinc-300 leading-7">
+    The Bot stores minimal configuration data such as:
+  </p>
+  <ul class="list-disc list-inside mt-4 space-y-2 text-zinc-400">
+    <li>Server configuration settings</li>
+    <li>Selected channels</li>
+    <li>Selected roles</li>
+    <li>Last posted news/update links</li>
+  </ul>
+  <p class="text-zinc-300 leading-7 mt-4">
+    This data is stored locally in configuration files strictly for the purpose of running the Bot’s features.
+  </p>
+</section>
 
-    <!-- Section 4: Third-Party Services -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">4. Third-Party Services</h3>
-      <p>The Bot may retrieve information from third-party sources including:</p>
-      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
-        <li>BO3.gg</li>
-        <li>Dust2.us</li>
-        <li>Steam Community</li>
-        <li>CS2 API services</li>
-      </ul>
-      <p class="mt-2">These services may have their own privacy policies.</p>
-    </section>
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">3. Data Usage</h2>
+  <p class="text-zinc-300 leading-7">
+    Collected data is used solely for:
+  </p>
+  <ul class="list-disc list-inside mt-4 space-y-2 text-zinc-400">
+    <li>Providing bot functionality</li>
+    <li>Delivering configured updates</li>
+    <li>Responding to commands</li>
+    <li>Maintaining server settings</li>
+  </ul>
+  <p class="text-zinc-300 leading-7 mt-4">
+    Data is never sold, shared, or used for advertising purposes.
+  </p>
+</section>
 
-    <!-- Section 5: Data Removal -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">5. Data Removal</h3>
-      <p>Server administrators can remove stored data at any time by:</p>
-      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
-        <li>Disabling bot features using setup commands</li>
-        <li>Removing the bot from the server</li>
-      </ul>
-      <p class="mt-2">Once removed, configuration data related to that server may be deleted.</p>
-    </section>
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">4. Third-Party Services</h2>
+  <p class="text-zinc-300 leading-7">
+    The Bot may retrieve information from third-party sources including:
+  </p>
+  <ul class="list-disc list-inside mt-4 space-y-2 text-zinc-400">
+    <li>BO3.gg</li>
+    <li>Dust2.us</li>
+    <li>Steam Community</li>
+    <li>CS2 API services</li>
+  </ul>
+  <p class="text-zinc-300 leading-7 mt-4">
+    These services may have their own privacy policies and terms.
+  </p>
+</section>
 
-    <!-- Section 6: Security -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">6. Security</h3>
-      <p>Reasonable efforts are made to protect stored configuration data. However, no system is completely secure.</p>
-    </section>
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">5. Data Removal</h2>
+  <p class="text-zinc-300 leading-7">
+    Server administrators can remove stored data at any time by:
+  </p>
+  <ul class="list-disc list-inside mt-4 space-y-2 text-zinc-400">
+    <li>Disabling bot features using setup commands</li>
+    <li>Removing the bot from the server</li>
+  </ul>
+  <p class="text-zinc-300 leading-7 mt-4">
+    Once removed, configuration data related to that server may be deleted.
+  </p>
+</section>
 
-    <!-- Section 7: Changes -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">7. Changes to this Policy</h3>
-      <p>This Privacy Policy may be updated periodically. Continued use of the Bot constitutes acceptance of any changes.</p>
-    </section>
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">6. Security</h2>
+  <p class="text-zinc-300 leading-7">
+    Reasonable efforts are made to protect stored configuration data. However, no system is completely secure.
+  </p>
+</section>
 
-    <!-- Section 8: Contact -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-3">8. Contact</h3>
-      <p>For questions regarding this Privacy Policy, please contact the developer via the <a href="https://github.com/KingCozmosis/AllThingsCS" class="underline text-orange-500 hover:text-orange-400">GitHub repository</a>.</p>
-    </section>
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">7. Changes to this Policy</h2>
+  <p class="text-zinc-300 leading-7">
+    This Privacy Policy may be updated periodically. Continued use of the Bot constitutes acceptance of any changes.
+  </p>
+</section>
+
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">8. Contact</h2>
+  <p class="text-zinc-300 leading-7">
+    For questions regarding this Privacy Policy, please contact the developer through the
+    <a href="https://github.com/KingCozmosis/AllThingsCS" class="text-orange-500 hover:text-orange-400 underline">
+      GitHub repository
+    </a>.
+  </p>
+</section>
+```
 
   </main>
 
   <!-- Footer -->
-  <footer class="py-8 text-center bg-gray-800 border-t border-gray-700 mt-12">
-    <p>All Things CS • Powered by <a href="https://bo3.gg" class="underline hover:text-orange-500">BO3.gg</a></p>
-    <p class="mt-2"><a href="index.html" class="underline hover:text-orange-500">Back to Home</a></p>
+
+  <footer class="py-10 text-center bg-zinc-950 border-t border-zinc-800">
+    <p class="text-lg font-semibold">
+      All Things CS • Powered by
+      <a href="https://bo3.gg" class="underline hover:text-orange-500">BO3.gg</a>
+    </p>
+
+```
+<div class="mt-4 flex flex-wrap justify-center gap-5 text-sm text-zinc-400">
+  <a href="index.html" class="hover:text-orange-500 underline">Home</a>
+  <a href="About.html" class="hover:text-orange-500 underline">About</a>
+  <a href="partners.html" class="hover:text-orange-500 underline">Partners</a>
+  <a href="Privacy.html" class="hover:text-orange-500 underline">Privacy</a>
+  <a href="Terms.html" class="hover:text-orange-500 underline">Terms</a>
+</div>
+```
+
   </footer>
 
 </body>
