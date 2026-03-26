@@ -2,154 +2,172 @@
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About the Developer • All Things CS</title>
-
-```
-<style>
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background: #0e0e11;
-        color: #ffffff;
-    }
-
-    header {
-        padding: 20px 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #111;
-        border-bottom: 1px solid #222;
-    }
-
-    header a {
-        color: #fff;
-        text-decoration: none;
-        margin-left: 20px;
-        font-weight: bold;
-    }
-
-    header a:hover {
-        color: #ff6600;
-    }
-
-    .container {
-        max-width: 1000px;
-        margin: auto;
-        padding: 60px 20px;
-    }
-
-    h1 {
-        font-size: 40px;
-        margin-bottom: 20px;
-        color: #ff6600;
-    }
-
-    h2 {
-        margin-top: 40px;
-        color: #ff6600;
-    }
-
-    p {
-        line-height: 1.6;
-        color: #ccc;
-    }
-
-    .card {
-        background: #15151a;
-        padding: 25px;
-        border-radius: 10px;
-        margin-top: 20px;
-        border: 1px solid #222;
-    }
-
-    .highlight {
-        color: #ff6600;
-        font-weight: bold;
-    }
-
-    .socials a {
-        display: inline-block;
-        margin-right: 15px;
-        margin-top: 10px;
-        color: #ff6600;
-        text-decoration: none;
-    }
-
-    footer {
-        text-align: center;
-        padding: 30px;
-        border-top: 1px solid #222;
-        margin-top: 60px;
-        color: #777;
-    }
-</style>
-```
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About the Developer • All Things CS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-zinc-950 text-white font-sans">
 
-<body>
+  <!-- Navbar -->
 
-<header>
-    <div><strong>All Things CS</strong></div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Privacy.html">Privacy</a>
-        <a href="Terms.html">Terms</a>
-    </nav>
-</header>
-
-<div class="container">
+  <header class="sticky top-0 z-50 bg-black/70 backdrop-blur border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold tracking-wide text-white">
+        All Things <span class="text-orange-500">CS</span>
+      </a>
 
 ```
-<h1>About the Developer</h1>
-
-<div class="card">
-    <p>
-        Hey, I’m <span class="highlight">K1NG</span> a competitive Counter-Strike player and developer.
-    </p>
-
-    <p>
-        I built <span class="highlight">All Things CS</span> because I wanted a single place inside Discord
-        where players could quickly access everything — matches, stats, teams, news, and updates
-        without having to jump between multiple sites.
-    </p>
-
-    <p>
-        What started as a small project quickly turned into something much bigger as I kept adding features,
-        improving performance, and making it more useful for everyday CS players.
-    </p>
+  <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-300">
+    <a href="index.html" class="hover:text-orange-500 transition">Home</a>
+    <a href="About.html" class="text-orange-500">About</a>
+    <a href="partners.html" class="hover:text-orange-500 transition">Partners</a>
+    <a href="Privacy.html" class="hover:text-orange-500 transition">Privacy</a>
+    <a href="Terms.html" class="hover:text-orange-500 transition">Terms</a>
+  </nav>
 </div>
-
-<h2>The Goal</h2>
-<div class="card">
-    <p>
-        The goal is simple:
-    </p>
-
-    <p>
-        Build the <span class="highlight">best all-in-one Counter-Strike Discord bot</span>.
-    </p>
-
-    <p>
-        Whether you're checking live matches, comparing players, or just staying updated with CS2 news,
-        the bot is designed to make everything fast, clean, and easy to use.
-    </p>
-</div>
-
-<h2>What Makes It Different</h2>
-<div class="card">
-    <p>• Clean, interactive UI inside Discord</p>
-    <p>• Real time data powered by BO3.gg</p>
-    <p>• Constant updates and new features</p>
-    <p>• Built by an actual CS player (not just a random dev)</p>
-</div>
-
-<h2>Future Plans</h2>
-<div class="card">
-    <p>
-        I’m actively working on expanding the bot. If there is a feature that you want to see let me know!
 ```
+
+  </header>
+
+  <!-- Hero -->
+
+  <section class="py-20 px-4 text-center border-b border-zinc-800 bg-gradient-to-b from-zinc-900 to-zinc-950">
+    <div class="max-w-4xl mx-auto">
+      <p class="text-orange-400 uppercase tracking-[0.3em] text-sm font-semibold mb-3">
+        About
+      </p>
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4">About the Developer</h1>
+      <p class="text-zinc-400 text-lg max-w-2xl mx-auto">
+        The story behind All Things CS and the person building it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+
+  <main class="max-w-5xl mx-auto px-4 py-16 space-y-8">
+
+```
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">Who I Am</h2>
+  <p class="text-zinc-300 leading-7">
+    Hey, I’m <span class="text-orange-400 font-semibold">K1NG</span> — a competitive Counter-Strike player and developer.
+  </p>
+  <p class="text-zinc-300 leading-7 mt-4">
+    I built <span class="text-orange-400 font-semibold">All Things CS</span> because I wanted one place inside Discord
+    where players could quickly access everything — matches, stats, teams, tournaments, news, and updates —
+    without having to jump between multiple sites.
+  </p>
+  <p class="text-zinc-300 leading-7 mt-4">
+    What started as a small project quickly turned into something much bigger as I kept adding features,
+    improving performance, and making it more useful for everyday CS players.
+  </p>
+</section>
+
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">The Goal</h2>
+  <p class="text-zinc-300 leading-7">
+    The goal is simple:
+  </p>
+  <p class="text-zinc-300 leading-7 mt-4">
+    Build the <span class="text-orange-400 font-semibold">best all-in-one Counter-Strike Discord bot</span>.
+  </p>
+  <p class="text-zinc-300 leading-7 mt-4">
+    Whether you're checking live matches, comparing players, or just staying updated with CS2 news,
+    the bot is designed to make everything fast, clean, and easy to use.
+  </p>
+</section>
+
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">What Makes It Different</h2>
+  <ul class="list-disc list-inside space-y-3 text-zinc-300">
+    <li>Clean, interactive UI inside Discord</li>
+    <li>Real-time data powered by BO3.gg</li>
+    <li>Constant updates and new features</li>
+    <li>Built by an actual CS player, not just a random dev</li>
+  </ul>
+</section>
+
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">Future Plans</h2>
+  <p class="text-zinc-300 leading-7">
+    I’m actively working on expanding the bot. If there’s a feature you want to see, let me know.
+  </p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
+    <div class="bg-black/40 border border-zinc-800 rounded-xl p-5">
+      <h3 class="font-semibold text-orange-400 mb-2">More Advanced Stats</h3>
+      <p class="text-zinc-400">Deeper player and match insights for people who want more than just the basics.</p>
+    </div>
+    <div class="bg-black/40 border border-zinc-800 rounded-xl p-5">
+      <h3 class="font-semibold text-orange-400 mb-2">Better Match Tracking</h3>
+      <p class="text-zinc-400">Cleaner live match tools, tournament coverage, and more ways to follow ongoing events.</p>
+    </div>
+    <div class="bg-black/40 border border-zinc-800 rounded-xl p-5">
+      <h3 class="font-semibold text-orange-400 mb-2">More Integrations</h3>
+      <p class="text-zinc-400">Expanding the bot with more sources, esports tools, and useful community features.</p>
+    </div>
+    <div class="bg-black/40 border border-zinc-800 rounded-xl p-5">
+      <h3 class="font-semibold text-orange-400 mb-2">Community Feedback</h3>
+      <p class="text-zinc-400">Shaping future updates around what CS players actually want to use every day.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">Partners & Collaborations</h2>
+  <p class="text-zinc-300 leading-7">
+    All Things CS is also being built with room for future collaborations, sponsors, and esports-related partnerships.
+  </p>
+  <p class="text-zinc-300 leading-7 mt-4">
+    As the bot grows, this project can support featured partner placements, creator collaborations,
+    community promotions, sponsor banners, and other CS-related opportunities.
+  </p>
+  <a href="partners.html"
+     class="inline-block mt-6 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-semibold transition">
+    View Partners Page
+  </a>
+</section>
+
+<section class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+  <h2 class="text-2xl font-bold mb-4 text-orange-400">Contact</h2>
+  <p class="text-zinc-300 leading-7">
+    Want to collaborate, support the project, or just keep up with development?
+  </p>
+  <div class="mt-5 flex flex-wrap gap-4">
+    <a href="https://github.com/KingCozmosis/AllThingsCS"
+       class="bg-black/40 border border-zinc-700 hover:border-orange-500 px-5 py-3 rounded-xl transition text-zinc-200 hover:text-white">
+      GitHub
+    </a>
+    <a href="partners.html"
+       class="bg-black/40 border border-zinc-700 hover:border-orange-500 px-5 py-3 rounded-xl transition text-zinc-200 hover:text-white">
+      Partnerships
+    </a>
+  </div>
+</section>
+```
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="py-10 text-center bg-zinc-950 border-t border-zinc-800">
+    <p class="text-lg font-semibold">
+      All Things CS • Powered by
+      <a href="https://bo3.gg" class="underline hover:text-orange-500">BO3.gg</a>
+    </p>
+
+```
+<div class="mt-4 flex flex-wrap justify-center gap-5 text-sm text-zinc-400">
+  <a href="index.html" class="hover:text-orange-500 underline">Home</a>
+  <a href="About.html" class="hover:text-orange-500 underline">About</a>
+  <a href="partners.html" class="hover:text-orange-500 underline">Partners</a>
+  <a href="Privacy.html" class="hover:text-orange-500 underline">Privacy</a>
+  <a href="Terms.html" class="hover:text-orange-500 underline">Terms</a>
+</div>
+```
+
+  </footer>
+
+</body>
+</html>
